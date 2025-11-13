@@ -1,0 +1,115 @@
+# Build directories
+build-*/
+*.build/
+Debug/
+Release/
+*.pro.user
+*.pro.user.*
+*.autosave
+
+# Compiled object files
+*.o
+*.obj
+*.ko
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.app
+*.out
+
+# Qt specific
+moc_*
+qrc_*
+ui_*
+*.moc
+*.qm
+Makefile*
+*.prl
+*.a
+*.la
+*.lib
+
+# Qt Creator
+*.autosave
+*.cflags
+*.cxxflags
+*.config
+*.files
+*.includes
+*.creator
+*.creator.*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.idea/
+.vscode/
+*.code-workspace
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+*.cmake
+
+# QMake
+*.pro.user
+*.pro.user.*
+
+# Debug symbols
+*.dSYM/
+
+# Temporary files
+*~
+*.tmp
+*.bak
+*.swp
+
+# Logs
+*.log
+
+# Package files
+*.deb
+*.rpm
+*.tar.gz
+*.zip
+
+# Documentation
+doc/
+html/
+latex/
+
+# Translation files
+*.ts
+!*.ts
+
+# Unit tests
+test-results/
+
+# Resource files
+resources.qrc
+
+# QML cache
+qmlcache/
