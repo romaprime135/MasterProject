@@ -55,7 +55,6 @@ private:
     std::vector<std::thread> clientThreads;
     std::mutex clientsMutex;
 
-    // Qt SQL Database
     QSqlDatabase db;
 
     struct OnlineUser {
@@ -323,7 +322,6 @@ private:
             return false;
         }
 
-        // Таблица сообщений
         success = query.exec(
             "CREATE TABLE IF NOT EXISTS messages ("
             "id INTEGER PRIMARY KEY AUTOINCREMENT,"
@@ -412,3 +410,4 @@ private:
 };
 
 #endif
+
