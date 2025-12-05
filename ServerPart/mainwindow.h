@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QStandardItemModel>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -20,9 +21,13 @@ public:
 private slots:
     void on_BanButton_clicked();
     void on_UnbanButton_clicked();
+    void updateUsersList();
+    void updateMessagesList();
 
 private:
     Ui::MainWindow *ui;
+    QStandardItemModel *usersModel;
+    QStandardItemModel *messagesModel;
 };
 
 #endif

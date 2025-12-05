@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>444</width>
-    <height>218</height>
+    <height>652</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -94,6 +94,62 @@
     </property>
     <property name="text">
      <string>UNBAN</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="UsersHelp">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>180</y>
+      <width>65</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>users</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MessagesHelp">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>180</y>
+      <width>123</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>messages</string>
+    </property>
+   </widget>
+   <widget class="QTreeView" name="UsersView">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>191</width>
+      <height>371</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTreeView" name="MessagesView">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>230</y>
+      <width>221</width>
+      <height>371</height>
+     </rect>
     </property>
    </widget>
   </widget>

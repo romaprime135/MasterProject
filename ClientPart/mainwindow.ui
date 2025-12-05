@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>844</height>
+    <height>873</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,10 +17,10 @@
    <widget class="QTextBrowser" name="MessageHistory">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>10</x>
       <y>390</y>
-      <width>781</width>
-      <height>281</height>
+      <width>771</width>
+      <height>441</height>
      </rect>
     </property>
     <property name="html">
@@ -200,7 +200,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
      <string>LOGON</string>
     </property>
    </widget>
-   <widget class="QLabel" name="PasswordHelp_2">
+   <widget class="QLabel" name="ImportanceHelp">
     <property name="geometry">
      <rect>
       <x>160</x>
